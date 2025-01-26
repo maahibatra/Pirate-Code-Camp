@@ -4,13 +4,23 @@ body {
     font-family: "Ubuntu", serif;
 }
 
-#header {
+.header {
     font-size: 4vw;
     font-family: "Pirata One", serif;
     letter-spacing: 0.1vw;
     margin-bottom: 3vw;
     border-bottom: 0.3vw solid white;
     letter-spacing: 0.5vw;
+    display: flex;
+}
+
+.headerButton {
+    font-family: "Ubuntu", serif;
+    font-size: 1.5vw;
+    cursor: pointer;
+    width: 15vw;
+    margin-left: auto;
+    margin-bottom: 1vw;
 }
 
 /* #challenge {
