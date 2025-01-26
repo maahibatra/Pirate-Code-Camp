@@ -6,7 +6,7 @@
 
 // next.onclick = function() {
 //     if(i === 2) {
-//         welcome.style.display = "none";
+//         background.style.display = "none";
 //     }
 
 //     for(let j = 0; j < steps.length; j++) {
@@ -18,7 +18,3 @@
 //         }
 //     }
 // }
-
-toggle.onclick = function() {
-    sidebar.classList.toggle("active");
-}

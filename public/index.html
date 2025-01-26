@@ -4,22 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pirate Code Camp</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <div id="welcome">
-        <div id="content">
-            <div id="title">Ahoy, Matey!</div>
-            <div id="text">Welcome to Pirate Code Camp, where ye'll learn the ropes of tech from the saltiest sea dogs around—hoist the Jolly Roger, discover the treasures of code, and sail the digital seas! Arrr!</div>
+    <!-- <div id="background">
+        <div id="welcome">
+            <div id="content">
+                <div class="title">Ahoy, Matey!</div>
+                <div class="text">Welcome to Pirate Code Camp, where ye'll learn the ropes of tech from the saltiest sea dogs around—hoist the Jolly Roger, discover the treasures of code, and sail the digital seas! Arrr!</div>
+            </div>
+            <button id="next">Next</button>
         </div>
-        <button id="next">Next</button>
     </div> -->
 
-    <button id="toggle">///</button>
-    <div id="sidebar">
+    <div id="links">
+        <div id="header">LINKS</div>
+        <div class="lesson">
+            <div class="title lessonTitle">Lesson 1: Setting Sail</div>
+            <div class="text lessonText">
+                <div class="objective">Objective: Understand what JavaScript is and its role in web development.</div>
+                <ul class="parts">
+                    <li><a href="aitjs.html">Article: An Introduction to JavaScript</a></li>
+                    <li><a href="quiz1.html">Quiz Time</a></li>
+                    <li><a href="challenge1.html">Code Challenge</a></li>
+                </ul>
+            </div>
+            <div class="title lessonTitle">Lesson 2: X Marks The Data</div>
+            <div class="text lessonText">
+                <div class="objective">Objective: Master variable declarations and dive into basic data types.</div>
+                <ul class="parts">
+                    <li><a href="article2.html">Article: Storing Data with Variables</a></li>
+                    <li><a href="quiz2.html">Quiz Time</a></li>
+                    <li><a href="challenge2.html">Code Challenge</a></li>
+                </ul>
+            </div>
+            <div class="title lessonTitle">Lesson 3: The Pirate's Code</div>
+            <div class="text lessonText">
+                <div class="objective">Objective: Unlock the secrets of functions and how they make coding easier.</div>
+                <ul class="parts">
+                    <li><a href="article3.html">Article: Making Reusable Code Using Functions</a></li>
+                    <li><a href="quiz3.html">Quiz Time</a></li>
+                    <li><a href="challenge3.html">Code Challenge</a></li>
+                </ul>
+            </div>
+            <div class="title lessonTitle">Lesson 4: Captain's Orders</div>
+            <div class="text lessonText">
+                <div class="objective">Objective: Explore the world of decision-making with conditionals.</div>
+                <ul class="parts">
+                    <li><a href="article4.html">Article: Using Conditionals in JavaScript</a></li>
+                    <li><a href="quiz4.html">Quiz Time</a></li>
+                    <li><a href="challenge4.html">Code Challenge</a></li>
+                </ul>
+            </div>
+            <div class="title lessonTitle">Lesson 5: Navigating The Whirlpool</div>
+            <div class="text lessonText">
+                <div class="objective">Objective: Conquer the art of repetition with loops.</div>
+                <ul class="parts">
+                    <li><a href="article5.html">Article: How Loops Work</a></li>
+                    <li><a href="quiz5.html">Quiz Time</a></li>
+                    <li><a href="challenge5.html">Code Challenge</a></li>
+                </ul>
+            </div>
+            <div class="title lessonTitle">Lesson 6: The Treasure Chest</div>
+            <div class="text lessonText">
+                <div class="objective">Objective: Navigate through arrays and objects to manage booty like a pirate.</div>
+                <ul class="parts">
+                    <li><a href="article6.html">Article: Arrays and Objects Explained</a></li>
+                    <li><a href="quiz6.html">Quiz Time</a></li>
+                    <li><a href="challenge6.html">Code Challenge</a></li>
+                </ul>
+            </div>
+            <div class="title lessonTitle">Lesson 7: The Pirate's Quest</div>
+            <div class="text lessonText">
+                <div class="objective">Objective: Apply the skills you learnt in a mini-project!</div>
+                <ul class="parts">
+                    <li><a href="challenge7.html">Code Challenge</a></li>
+                </ul>
+            </div>
+        </div>        
+    </div>
+
+    <!-- <button id="toggle">///</button>
+    <div id="sidebar" class="active">
         <ul>
             <li>number 1</li>
             <li>number 2</li>
@@ -34,10 +104,11 @@
         </div>
         <div id="codespace">
             <textarea id="editor" spellcheck="false">console.log("meow");</textarea>
-            <textarea id="output"" spellcheck="false">meow</textarea>
+            <textarea id="output" spellcheck="false">meow</textarea>
         </div>
-    </div>
+    </div> -->
     
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

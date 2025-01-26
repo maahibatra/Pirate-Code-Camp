@@ -2,62 +2,18 @@ body {
     background-color: black;
     color: white;
     font-family: "Ubuntu", serif;
-    overflow: hidden;
 }
 
-#welcome {
-    background-color: #363636;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 3vw;
-    border-radius: 1vw;
-    width: 70%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#title {
+#header {
     font-size: 4vw;
     font-family: "Pirata One", serif;
     letter-spacing: 0.1vw;
+    margin-bottom: 3vw;
+    border-bottom: 0.3vw solid white;
+    letter-spacing: 0.5vw;
 }
 
-#text {
-    font-size: 1.7vw;
-    margin: 1vw 0;
-    text-indent: 3vw;
-    margin-left: 1vw;
-}
-
-#next {
-    font-family: "Ubuntu", serif;
-    font-size: 1.5vw;
-    padding: 0.5vw 1vw;
-    cursor: pointer;
-    width: 10vw;
-    margin-left: auto;
-}
-
-#sidebar {
-    width: 12vw;
-    height: 100vh;
-    background-color: #363636;
-    position: absolute;
-    left: -12vw;
-    transition: left 0.3s ease;
-    display: flex;
-    flex-direction: column;
-}
-
-#sidebar.active {
-    left: 0;
-}
-
-#challenge {
+/* #challenge {
     display: flex;
     flex-direction: column;
     transition: margin-left 0.3s ease;
@@ -102,4 +58,4 @@ body {
     font-size: 1.2vw;
     color: white;
     outline: none;
-}
+} */

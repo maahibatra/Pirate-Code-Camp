@@ -1,0 +1,81 @@
+#background {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+#welcome {
+    background-color: #363636;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3vw;
+    border-radius: 1vw;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 4vw;
+    font-family: "Pirata One", serif;
+    letter-spacing: 0.1vw;
+}
+
+.text {
+    font-size: 1.7vw;
+    margin: 1vw 0;
+    text-indent: 3vw;
+    margin-left: 1vw;
+}
+
+#next {
+    font-family: "Ubuntu", serif;
+    font-size: 1.5vw;
+    padding: 0.5vw 1vw;
+    cursor: pointer;
+    width: 10vw;
+    margin-left: auto;
+}
+
+#links {
+    background-color: #363636;
+    margin: 3vw;
+    padding: 2vw 3vw;
+    border-radius: 1vw;
+    overflow: scroll;
+}
+
+.lesson {
+    margin-left: 3vw;
+}
+
+.lessonTitle {
+    font-size: 2vw;
+    border-bottom: 0.1vw solid white;
+}
+
+.lessonText {
+    font-size: 1vw;
+    margin-left: -2vw;
+}
+
+.objective {
+    margin-top: -0.5vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 0.5vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
