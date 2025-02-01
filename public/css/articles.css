@@ -1,0 +1,48 @@
+#article {
+    background-color: #5c3b1e;
+    margin: 3vw;
+    padding: 2vw 3vw;
+    border-radius: 1vw;
+    border: 0.3vw solid #c2924c;
+}
+
+.header {
+    margin-bottom: 2vw;
+    color: #f4e1c1;
+}
+
+.at {
+    margin-left: 2vw;
+    border-bottom: 0.1vw solid #c2924c;
+    color: #f4e1c1;
+}
+
+.ate {
+    margin: 1.5vw 0;
+    color: #e6b880;
+}
+
+ul {
+    margin-bottom: 1.5vw;
+    color: #ffddb1;
+}
+
+li {
+    font-size: 1.3vw;
+    margin-left: 5vw;
+    color: #ffe4c4;
+}
+
+.cb {
+    background-color: #221809;
+    padding: 2vw;
+    font-size: 1.3vw;
+    margin-left: 7vw;
+    border-radius: 2vw;
+    color: #f4e1c1;
+}
+
+.ne {
+    margin-top: 2vw;
+    color: #e6b880;
+}

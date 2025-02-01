@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #1e1408;
+    color: #ffddb1;
     font-family: "Ubuntu", serif;
 }
 
@@ -9,63 +9,54 @@ body {
     font-family: "Pirata One", serif;
     letter-spacing: 0.1vw;
     margin-bottom: 3vw;
-    border-bottom: 0.3vw solid white;
+    border-bottom: 0.3vw solid #c2924c;
     letter-spacing: 0.5vw;
     display: flex;
 }
 
-.headerButton {
+.hb {
     font-family: "Ubuntu", serif;
     font-size: 1.5vw;
     cursor: pointer;
     width: 15vw;
     margin-left: auto;
     margin-bottom: 1vw;
+    color: #1e1408;
+    background-color: #d4a047;
+    border: 0.2vw solid #8b5e34;
+    padding: 0.5vw 1vw;
+    text-align: center;
+    border-radius: 0.5vw;
+    transition: 0.3s;
 }
 
-/* #challenge {
-    display: flex;
-    flex-direction: column;
-    transition: margin-left 0.3s ease;
+.hb:hover {
+    background-color: #b97b2d;
+    border-color: #6a4221;
 }
 
-#sidebar.active ~ #challenge {
-    margin-left: 7vw;
-}
-
-#content2 {
-    margin: 1.5vw 0 -3vw 7vw;
-}
-
-#title2 {
-    font-size: 2.5vw;
+.title {
+    font-size: 2vw;
     font-family: "Pirata One", serif;
-    letter-spacing: 0.1vw;
+    letter-spacing: 0.2vw;
+    border-bottom: 0.1vw solid #c2924c;
 }
 
-#text2 {
-    font-size: 1.5vw;
+.text {
+    font-size: 1.3vw;
     margin: 1vw 0;
     text-indent: 3vw;
-    margin-left: 1vw;
+    margin-left: -2vw;
+    color: #ffe4c4;
 }
 
-#codespace {
-    display: flex;
-    gap: 1vw;
-    margin: 5vw auto;
-    width: 75%;
-    height: calc(100vh - 15vw);
+ul {
+    padding: 0 2vw;
+    margin: 0;
+    color: #e6b880;
 }
 
-#editor, #output {
-    font-family: "Ubuntu", serif;
-    background-color: #363636;
-    padding: 2vw;
-    width: 50%;
-    border: 0.3vw solid white;
-    border-radius: 1vw;
-    font-size: 1.2vw;
-    color: white;
-    outline: none;
-} */
+a {
+    text-decoration: none;
+    color: #f4e1c1;
+}

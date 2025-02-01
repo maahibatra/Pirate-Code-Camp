@@ -1,11 +1,11 @@
 #background {
-    background-color: black;
+    background-color: #1e1408;
     width: 100vw;
     height: 100vh;
 }
 
 #welcome {
-    background-color: #363636;
+    background-color: #5c3b1e;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,19 +17,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border: 0.3vw solid #c2924c;
+    color: #ffddb1;
 }
 
-.title {
+#wt {
     font-size: 4vw;
-    font-family: "Pirata One", serif;
-    letter-spacing: 0.1vw;
+    color: #f4e1c1;
 }
 
-.text {
-    font-size: 1.7vw;
-    margin: 1vw 0;
-    text-indent: 3vw;
-    margin-left: 1vw;
+#wte {
+    font-size: 2vw;
+    margin-left: 2vw;
+    color: #e6b880;
 }
 
 #next {
@@ -39,36 +39,42 @@
     cursor: pointer;
     width: 10vw;
     margin-left: auto;
+    background-color: #d4a047;
+    color: #1e1408;
+    border: 0.2vw solid #8b5e34;
+    border-radius: 0.5vw;
+    transition: 0.3s;
+}
+
+#next:hover {
+    background-color: #b97b2d;
+    border-color: #6a4221;
 }
 
 #links {
-    background-color: #363636;
+    background-color: #5c3b1e;
     margin: 3vw;
     padding: 2vw 3vw;
     border-radius: 1vw;
     overflow: scroll;
+    border: 0.3vw solid #c2924c;
+    color: #ffddb1;
 }
 
 .lesson {
     margin-left: 3vw;
-}
-
-.lessonTitle {
-    font-size: 2vw;
-    border-bottom: 0.1vw solid white;
-}
-
-.lessonText {
-    font-size: 1vw;
-    margin-left: -2vw;
+    color: #f4e1c1;
 }
 
 .objective {
     margin-top: -0.5vw;
+    color: #e6b880;
 }
 
 ul {
+    padding: 0.5vw 2vw;
     list-style-type: none;
+    color: #ffddb1;
 }
 
 li {
@@ -77,4 +83,9 @@ li {
 
 a {
     color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d4a047;
 }
